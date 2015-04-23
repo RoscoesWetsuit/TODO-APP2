@@ -1,5 +1,5 @@
 <?php
-	$task = strip_tags($_POST['tasks']);
+	$task = strip_tags($_POST['task']);
 	$date = date('Y-m-d');
 	$time = date('H:i:s');
 
