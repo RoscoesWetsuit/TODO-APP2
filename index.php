@@ -3,6 +3,8 @@
 <head>
 	<title>Cade's todo list2</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/cssreset.css">
 </head>
 <body>
 	<div class="wrap">
@@ -10,7 +12,7 @@
 			<ul>
 				<?php
 					require("includes/connect.php");
-					$mysqli = new mysqli('localhost', 'root', 'root', 'tasks');
+					$mysqli = new mysqli('localhost', 'root', 'root', 'todo2');
 					$query = "SELECT * FROM tasks ORDER BY date ASC, time ASC";
 					if ($result = $mysqli->query($query)) {
 						$numrows = $result->num_rows;
@@ -21,7 +23,7 @@
 								
 								echo '<li>
 								<span>'.$task_name. '<span>
-								<img id="'.$task_id'" class="delete-button" width="10px" src="images/close.svg"/>
+								<img id="'.$task_id.'" class="delete-button" width="10px" src="images/close.svg"/>
 								</li>';
 							}
 						}

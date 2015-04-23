@@ -1,11 +1,11 @@
 <?php
-	$task = strip_tags($_POST['task']);
+	$task = strip_tags($_POST['tasks']);
 	$date = date('Y-m-d');
 	$time = date('H:i:s');
 
 	includes('connect.php');
 
-	$mysqli = new mysqli('localhost', 'root', 'root', 'tasks');
+	$mysqli = new mysqli('localhost', 'root', 'root', 'todo2');
 	$mysqli ->query("INSERT INTO tasks VALUES ('', 'tasks', '$date', '$time')");
  
 	$query = "SELECT * FROM tasks WHERE task='$task' and date='$date' and time='$time' ";
