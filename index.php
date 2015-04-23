@@ -10,6 +10,22 @@
 			<ul>
 				<?php
 					require("includes/connect.php");
+					$mysqli = new mysqli('localhost', 'root', 'root', 'tasks');
+					$query = "SELECT * FROM tasks ORDER BY date ASC, time ASC";
+					if ($result = $mysqli->query($query)) {
+						$numrows = $result->num_rows;
+						if($numrows>0){
+							while($row = $result->fetch_assoc()){
+								$task_id = $row['id'];
+								$task_name = $row["task"];
+								echo "<li>
+								<span>'.task_name'
+								";
+							}
+						}
+					}
+				
+
 				?>
 			</ul>
 		</div>
