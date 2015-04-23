@@ -9,7 +9,7 @@
 		<div class="task-list">
 			<ul>
 				<?php
-					require("includes/connect/php");
+					require("includes/connect.php");
 				?>
 			</ul>
 		</div>
