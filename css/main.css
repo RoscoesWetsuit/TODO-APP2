@@ -6,7 +6,6 @@
 body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
 	color:#999;
-	background: #f1f1f1;
 }
 
 .wrap {
@@ -15,10 +14,112 @@ body{
 }
 
 .task-list {
-	width: 88%;
-	min-height: 300px;
+	position: relative;
+	left: -30px;
+	width: 99%;
+	min-height: 50px;
 	background: #fff;
 	box-shadow: 2px 2px 0px #ddd;
 	margin-top: 40px;
 	padding: 22px 6%;
+}
+
+.box{
+	width: 443px;
+	position: relative;
+	left: -30px;
+	top: 20px;
+}
+
+.header{
+	position: relative;
+	left: 560px;
+	color: #000000;
+	font-style: bold;
+	font-size: 100px;
+	text-shadow: 1px 1px #ffffff;
+}
+
+.user{
+	position: relative;
+	left: 443px;
+	top: -30px;
+	color: #000000;
+	font-size: 23px;
+	font-style: bold;
+	text-shadow: 1px 1px #ffffff;
+
+}
+
+.password{
+	position: relative;
+	left: 450px;
+	top: -20px;
+	color: #000000;
+	font-size: 23px;
+	font-style: bold;
+	text-shadow: 0.3px 0.3px #ffffff;
+
+}
+
+.button{
+	position: relative;
+	left: 0px;
+	font-size: 30px;
+}
+
+.button2{
+	width: 200px;
+}
+
+.register{
+	position: relative;
+	left: 520px;
+	color: #000000;
+	font-style: bold;
+	font-size: 100px;
+	text-shadow: 1px 1px #ffffff;
+}
+
+.user2{
+	position: relative;
+	left: 443px;
+	top: -30px;
+	color: #000000;
+	font-size: 23px;
+	font-style: bold;
+	text-shadow: 1px 1px #ffffff;
+
+}
+
+.password2{
+	position: relative;
+	left: 450px;
+	top: -20px;
+	color: #000000;
+	font-size: 23px;
+	font-style: bold;
+	text-shadow: 0.3px 0.3px #ffffff;
+
+}
+
+.button2{
+	position: relative;
+	left: 600px;
+	font-size: 30px;
+}
+
+.button3{
+	width: 200px;
+}
+
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
 }

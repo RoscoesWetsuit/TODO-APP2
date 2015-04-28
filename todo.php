@@ -30,9 +30,13 @@
 			</ul>
 		</div>
 	<form class="add-new-task" autocomplete="off">
-		<input type="text" name="new-task" placeholder="Add new item..."/>
+		<input type="text" name="new-task" class="box" placeholder="Add new item..."/>
 	</form>
 	</div>	
+
+	<video autoplay loop id="video-background">
+  		<source src="images/hurt.mp4" type="video/mp4">
+	</video>
 </body>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script>

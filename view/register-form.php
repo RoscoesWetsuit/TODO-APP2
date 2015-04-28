@@ -3,20 +3,20 @@
 
  ?>
 
-<h1>Register</h1>
+<h1 class="register">Register</h1>
 
 <form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
-	<div>
+	<div class="user2">
 		<label for="username">Username: </label>
 		<input type="text" name="username" />
 	</div>
 
-	<div>
+	<div class="password2">
 		<label for="password">Password: </label>
 		<input type="password" name="password" />
 	</div>
 
-	<div>
-		<button type="submit">Submit:</button>
+	<div class="button2">
+		<button type="submit" class="button3">Submit:</button>
 	</div>
 </form>
