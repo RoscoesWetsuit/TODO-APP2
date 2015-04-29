@@ -31,87 +31,8 @@ body{
 	top: 20px;
 }
 
-.header{
-	position: relative;
-	left: 560px;
-	color: #000000;
-	font-style: bold;
-	font-size: 100px;
-	text-shadow: 1px 1px #ffffff;
-}
 
-.user{
-	position: relative;
-	left: 443px;
-	top: -30px;
-	color: #000000;
-	font-size: 23px;
-	font-style: bold;
-	text-shadow: 1px 1px #ffffff;
 
-}
-
-.password{
-	position: relative;
-	left: 450px;
-	top: -20px;
-	color: #000000;
-	font-size: 23px;
-	font-style: bold;
-	text-shadow: 0.3px 0.3px #ffffff;
-
-}
-
-.button{
-	position: relative;
-	left: 0px;
-	font-size: 30px;
-}
-
-.button2{
-	width: 200px;
-}
-
-.register{
-	position: relative;
-	left: 520px;
-	color: #000000;
-	font-style: bold;
-	font-size: 100px;
-	text-shadow: 1px 1px #ffffff;
-}
-
-.user2{
-	position: relative;
-	left: 443px;
-	top: -30px;
-	color: #000000;
-	font-size: 23px;
-	font-style: bold;
-	text-shadow: 1px 1px #ffffff;
-
-}
-
-.password2{
-	position: relative;
-	left: 450px;
-	top: -20px;
-	color: #000000;
-	font-size: 23px;
-	font-style: bold;
-	text-shadow: 0.3px 0.3px #ffffff;
-
-}
-
-.button2{
-	position: relative;
-	left: 600px;
-	font-size: 30px;
-}
-
-.button3{
-	width: 200px;
-}
 
 #video-background {
   position: fixed;
@@ -123,3 +44,4 @@ body{
   height: auto;
   z-index: -100;
 }
+

@@ -1,3 +1,44 @@
+.register{
+	position: relative;
+	left: 440px;
+	color: #000000;
+	font-style: bold;
+	font-size: 100px;
+	text-shadow: 1px 1px #ffffff;
+}
+
+.user2{
+	position: relative;
+	left: 443px;
+	top: -30px;
+	color: #000000;
+	font-size: 35px;
+	font-style: bold;
+	text-shadow: 1px 1px #ffffff;
+
+}
+
+.password2{
+	position: relative;
+	left: 450px;
+	top: -20px;
+	color: #000000;
+	font-size: 35px;
+	font-style: bold;
+	text-shadow: 0.3px 0.3px #ffffff;
+
+}
+
+.button2{
+	position: relative;
+	left: 520px;
+	font-size: 30px;
+}
+
+.button3{
+	width: 200px;
+}
+
 .imagery{
 	position: fixed;
   right: 0; 
@@ -7,45 +48,4 @@
   width: auto; 
   height: auto;
 
-}
-
-.header{
-	position: relative;
-	left: 490px;
-	color: #000000;
-	font-style: bold;
-	font-size: 100px;
-	text-shadow: 1px 1px #ffffff;
-}
-
-.user{
-	position: relative;
-	left: 445px;
-	top: -30px;
-	color: #000000;
-	font-size: 40px;
-	font-style: bold;
-	text-shadow: 1px 1px #ffffff;
-
-}
-
-.password{
-	position: relative;
-	left: 454px;
-	top: -20px;
-	color: #000000;
-	font-size: 40px;
-	font-style: bold;
-	text-shadow: 0.3px 0.3px #ffffff;
-
-}
-
-.button{
-	position: relative;
-	left: 520px;
-	font-size: 20px;
-}
-
-.button2{
-	width: 200px;
 }

@@ -17,6 +17,6 @@
 	</div>
 
 	<div class="button2">
-		<button type="submit" class="button3">Submit:</button>
+		<button type="submit" class="button3">Submit</button>
 	</div>
 </form>
